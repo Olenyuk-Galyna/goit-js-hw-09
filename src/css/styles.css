@@ -37,3 +37,6 @@ ul.gallery {
   width: 360px;
   height: 300px;
 }
+.feedback-form {
+  display: flex;
+}
