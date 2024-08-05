@@ -23,3 +23,17 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+ul.gallery {
+  list-style: none;
+  max-width: 1128px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.gallery-image {
+  display: block;
+  width: 360px;
+  height: 300px;
+}
