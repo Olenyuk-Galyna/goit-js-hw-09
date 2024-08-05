@@ -31,12 +31,62 @@ ul.gallery {
   flex-wrap: wrap;
   margin: 0 auto;
 }
-
 .gallery-image {
   display: block;
   width: 360px;
   height: 300px;
 }
+form {
+  border-radius: 8px;
+  border: none;
+    padding: 24px;
+    width: 408px;
+    height: 296px;
+    background: #fff;
+}
 .feedback-form {
   display: flex;
+   flex-direction: column;
+  border-radius: 8px;
+    width: 408px;
+    height: 256px;
+    padding: 24px;
+    background: #fff;
+    gap: 8px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  gap: 8px;
+  color: #2e2f42;
+}
+input .feedback-form {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  gap: 8px;
+}
+textarea .feedback-form {
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 80px;
+}
+button.feedback-form {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  align-self: start;
+  border-radius: 8px;
+  padding-top: 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
 }
