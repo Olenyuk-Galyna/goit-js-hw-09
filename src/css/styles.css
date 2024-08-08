@@ -73,11 +73,11 @@ input .feedback-form {
 }
 textarea .feedback-form {
   border: 1px solid #808080;
-    border-radius: 4px;
-    width: 360px;
-    height: 80px;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
 }
-button.feedback-form {
+button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -85,7 +85,8 @@ button.feedback-form {
   color: #fff;
   align-self: start;
   border-radius: 8px;
-  padding-top: 16px;
+  border: none;
+  padding: 8px 16px;
   width: 86px;
   height: 40px;
   background: #4e75ff;
